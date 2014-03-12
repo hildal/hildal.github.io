@@ -10,19 +10,19 @@ h1 {
     color: #f87431;
     text-align: center;
     font-size: 40px;
-    background-color: rgba(0,0,0,0.4)
+    font-family: garamond, helvetica, sans-serif;
 }
 
 body {
-    background-image:url(../img/gatorfootball.jpg);
+    background-image:url(../img/iceland1.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
-p {
-    font-family: arial, helvetica, sans-serif;
+body > p {
+    font-family: garamond, helvetica, sans-serif;
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
@@ -36,10 +36,47 @@ img {
 
 footer {
     text-align: center;
-    background-color: rgba(0,0,0,0.8);
 }
 
 nav {
-    background-color: black;
-    width: 50px;
+    padding: 5px;
+}
+
+nav a {
+    border: 1px solid #6495ED;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    border-color: #6495ED;
+    background-color: #BCD2EE;
+    border: 2px solid;
+    border-radius: 100%;
+    margin: auto;
+    text-align: center;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: garamond, helvetica, sans-serif;
+    color: #6495ED;
+}
+
+div p a {
+    position: relative;
+    font-size: 16px;
+    text-align: center;
+}
+
+footer a {
+     background-color: rgba(0,0,0,0.3);
+}
+
+header nav a {
+     background-color: rgba(0,0,0,0.2);
 }
