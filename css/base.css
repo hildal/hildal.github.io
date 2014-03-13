@@ -9,12 +9,12 @@ header {
 h1 {
     color: #f87431;
     text-align: center;
-    font-size: 40px;
+    font-size: 55px;
     font-family: garamond, helvetica, sans-serif;
 }
 
 body {
-    background-image:url(../img/iceland1.jpg);
+    background-image:url(../img/bluebackground.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -23,15 +23,24 @@ body {
 
 body > p {
     font-family: garamond, helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 24px;
     line-height: 24px;
     color: #FFFFFF;
-    background-color: rgba(0,0,0,0.4)
+    background-color: rgba(0,0,0,0.2);
+}
+
+body article p {
+    font-family: garamond, helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background-color: rgba(0,0,0,0.2);
 }
 
 img {
     margin: 0 5% 0 5%;
     padding: 1px; /* TRouBLe */
+    padding-left: 50px;
 }
 
 footer {
@@ -57,12 +66,13 @@ div {
     border-radius: 100%;
     margin: auto;
     text-align: center;
-    display: inline-block;
+    display: inline-grid;
+    padding-top: 10px;
 }
 
 a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 28px;
     font-family: garamond, helvetica, sans-serif;
     color: #6495ED;
 }
@@ -73,10 +83,21 @@ div p a {
     text-align: center;
 }
 
-footer a {
-     background-color: rgba(0,0,0,0.3);
+footer nav a {
+     background-color: rgba(0,0,0,0.5);
 }
 
 header nav a {
-     background-color: rgba(0,0,0,0.2);
+     background-color: rgba(0,0,0,0.5);
+}
+
+footer p a {
+    font-family: garamond, helvetica, sans-serif;
+    color: #000000;
+    font-size: 16px;
+}
+
+footer p {
+    font-family: garamond, helvetica, sans-serif;
+    font-size: 16px;
 }
